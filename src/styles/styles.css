@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   user-select: none;
-  background-image: url(../svg/among-us-space.svg);
+  background-image: url(../assets/among-us-space.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -92,7 +92,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../svg/frame.svg);
+  background-image: url(../assets/frame.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -124,7 +124,7 @@ h1 {
   width: 38px;
   border-radius: 50%;
   border: solid 5px #202020;
-  background-image: url(../svg/led.svg);
+  background-image: url(../assets/led.svg);
   background-size: contain;
   box-shadow: -2px 7px #827e7f;
 }
@@ -163,7 +163,7 @@ h1 {
 
 .ledOn {
   border: solid 5px #202020;
-  background-image: url(../svg/ledgreen.svg);
+  background-image: url(../assets/ledgreen.svg);
   background-size: contain;
 }
 
@@ -227,7 +227,7 @@ h1 {
 @keyframes errorLed {
   to {
     border: solid 5px #202020;
-    background-image: url(../svg/ledred.svg);
+    background-image: url(../assets/ledred.svg);
   }
 }
 
@@ -242,7 +242,7 @@ h1 {
 @keyframes completeLed {
   to {
     border: solid 5px #202020;
-    background-image: url(../svg/ledgreen.svg);
+    background-image: url(../assets/ledgreen.svg);
   }
 }
 

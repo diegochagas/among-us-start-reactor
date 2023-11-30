@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./src/styles/among.css">
     <link rel="stylesheet" href="./src/styles/rules.css">
     <link rel="stylesheet" href="./src/styles/styles.css" />
-    <title>Start Reactor</title>
+    
+    <title>Among Us - Start Reactor</title>
   </head>
   <body>
     <h1 id="title">START REACTOR</h1>
@@ -69,21 +71,7 @@
       </div>
     </div>
 
-    <script src="src/js/start-reactor.js"></script>4
-    <script>
-      const loadButton = document.getElementById('loadButton')
-      const startButton = document.getElementById('startButton')
-
-      loadButton.addEventListener('click', () => {
-        startReactor.load()
-        loadButton.style.display = 'none'
-        startButton.style.display = ''
-      })
-
-      startButton.addEventListener('click', () => {
-        startReactor.start()
-        startButton.style.display = 'none'
-      })
-    </script>
+    <script src="src/scripts/start-reactor.js"></script>
+    <script src="src/scripts/index.js"></script>
   </body>
 </html>
